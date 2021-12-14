@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+
+<body>
+    <header> 
+        <nav>       <!-- paginas mas utiles-->          
+             <!-- Links con apertura externa  -->                              
+             <!-- SHIFT+Alt duplica-->
+             
+             <a href="https://www.google.com/" target="_blank">Inicio </a> 
+             <a href="/pages/contact/contact.html">Contacto </a>
+             <a href="">Login/Registro </a>
+             <a href="/pages/gallery/cars/cars-gallery.html">Galeria de autos </a>
+             <a href="/pages/gallery/gallery.html">Gallery </a>
+            
+            
+        </nav>    
+    </header>
+    <h1>FORMULARIOS HTML</h1>
+    <h2>Elementos Input</h2>
+    <form>
+        <label for="nombre">Nombre</label><br>
+        <input id="nombre" type="Text" name="nombre" autofocus placeholder="Ingrese su nombre" />
+        <br>
+        <br>
+        <label for="apellido">Apellido</label><br>
+        <input id="apellido" type="text" name="apellido" placeholder="Ingrese su apellido" >
+        <br>
+        <br>
+        <label for="direccion">Direccion </label><br>
+        <input id="Direccion" type="text" name="direccion" placeholder="Ingrese su direccion">
+        <br>
+        <br>
+        <label for="mail">Email</label><br>
+        <input id="mail" type="text" name="mail" placeholder="Ingrese su mail" required>
+        <br>
+        <br>
+        <label for="contraseña">Contraseña</label><br>
+        <input id="contraseña" type="password" name="contraseña" placeholder="Ingrese su contraseña" required>
+        <br>
+        <br>
+        <label for="edad">Edad</label><br>
+        <input id="edad" type="number" name="edad" placeholder="Ingrese su edad">
+        <br>
+        <br>
+        <!-- checkboxs  -->
+        <label for= "theme_interest"> Temas de interés </label>
+        <br><input type="checkbox" name="theme_interest" value="futbol"> Fútbol <br>
+        <br><input type="checkbox" name="theme_interest" value="video_juegos">Videos Juegos <br>
+        <br><input type="checkbox" name="theme_interest"value="cocina"> Cocina <br>
+        <br><input type="checkbox" name="theme_interest"value="tecnologia"> Tecnologia <br>
+        <br><input type="checkbox" name="theme_interest"value="politica"> Politica <br>
+        <br><input type="checkbox" name="theme_interest"value="Sociales"> Sociales <br>      
+        
+        <br><br>
+        <!-- Item para seleccionar  -->
+        <label>Sexo</label><br> 
+        <input type="radio" name="gender"> Femenino <br>
+        <input type="radio" name="gender"> Masculino <br>
+        <input type="radio" name="gender"> Otro <br>
+        <br><br>
+        <!-- barrita  -->
+        <input type="range" min="0" max="100" value="75" />
+        <br><br>
+        <input type="color" />
+        <br><br>
+        <label for="avatar">Seleccione imagen de avatar</label><br>
+        <input type="file" multiple id= "avatar" />
+        <br><br>
+        <input type="date" name="calendario" >
+        <br><br>
+        <label for="provincas"> Listado de provincias</label><br>
+        <select name="provincias" id="provincias">Listado de provincias 
+            <option >Seleccione provincia </option>
+            <option value"bsas" >Buenos Aires</option>
+            <option value"capfed" >Capital Federal</option>
+            <option value"cat" >Catamarca</option>
+            <option value"chaco" >Chaco</option>
+            <option value"Chubut" >Chubut</option>
+            <option value"cordoba" >Córdoba</option>
+            <option value"Corrientes" >Corrientes</option>
+            <option value"Entre" >Entre Ríos</option>
+        </select>    
+        <br><br>
+        <fieldset>
+            <legend>Navegadores</legend>
+            <legend>
+                <input type="text" name="browser" list="browserList">
+                <datalist id="browserList">                    
+                    <option value"bsas" >Buenos Aires</option>
+                    <option value"capfed" >Capital Federal</option>
+                    <option value"cat" >Catamarca</option>
+                    <option value"chaco" >Chaco</option>
+                    <option value"Chubut" >Chubut</option>
+                    <option value"cordoba" >Córdoba</option>
+                    <option value"Corrientes" >Corrientes</option>
+                    <option value"Entre" >Entre Ríos</option>
+                </datalist>
+            </legend>
+        </fieldset>
+        <br><br>
+        <button type="submit">ENVIAR </button>
+        
+        
+    </form>
+</body>
+</html>

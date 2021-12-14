@@ -1,0 +1,187 @@
+h1{
+    color: blueviolet;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div{
+    background-color: rgb(222, 229, 236);
+    color: rgb(102, 89, 73);
+    font-size: 26px;
+}
+
+p{
+    color: black;
+    background-color: chartreuse;
+    font: 30px;
+}
+
+nav a{
+    color: rgb(65, 119, 167);
+    text-decoration: none;
+    background-color: aquamarine;
+}
+
+.brown-box{
+    color: rgb(46, 33, 58);
+    background-color: rgb(119, 107, 56);
+    font-size: 16px ;
+}
+
+.introduction{
+    background-color: rgb(53, 146, 53);
+}
+
+.special-words{
+    color: darkorange;
+}
+
+.carousel-container{
+    background-color: darksalmon;
+    color: dimgray;
+    height: 200px;
+
+}
+
+
+.posicionStatic{
+    position: relative;
+    border: 3px solid rgb(red, green, blue);
+    bottom: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(119, 107, 56) ;    
+}
+
+.posicionRelative{
+    position: relative;
+    border: 3px solid rgb(red, green, blue);
+    bottom: ;
+    width: 100px;
+    height: 100px;
+    background-color:rosybrown ;    
+}
+
+.posicionAbsolute{
+    position: absolute;
+    border: 3px solid rgb(red, green, blue);
+    bottom: ;
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;    
+}
+
+.posicionFixed{
+    position: fixed;
+    top: 100px;
+    border: 3px solid rgb(red, green, blue);
+    bottom: ;
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;     
+}
+
+.posicionSticky{
+    position: sticky;
+    border: 3px solid rgb(red, green, blue);
+    bottom: ;
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;     
+}
+
+.container1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: springgreen;
+}
+
+.container2{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(159, 189, 103);
+}
+
+.container3{
+    position: absolute;
+    top: 0px;
+    width: 50%;
+    height: 20vh;
+    background-color: rgb(206, 49, 22);
+}
+
+.size{
+    height: 500 px;
+    width: 500px;
+    background-color:crimson; 
+}
+
+.text{
+    font-size: 16px;
+    font-size: 50px;
+    color: white;
+}
+
+.textEm{
+    font-size: 1em;
+    text-align: center;
+    color: white;
+}
+
+.displayInLine{
+display:inline ;
+color: white;
+height: 100px;
+width: 100px;
+background-color: yellow;
+}
+
+.displayBlock{
+    display: block;
+    color: white;
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    }
+    
+.displayInlineBlock{
+    display: inline-block;
+    color: white;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    }
+    
+.flexbox{
+    margin: 50px auto;
+    display: flex;
+    color: white;
+    height: 750px;
+    width: 750px;
+    background-color: black;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    }
+
+.flexbox-item{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(238, 222, 222);
+    border: 1px solid black;
+    flex-grow: 2;
+    }   
+    
+.main-title{
+    
+}    
+
+    /* frontendmentor.io */
+    
+
